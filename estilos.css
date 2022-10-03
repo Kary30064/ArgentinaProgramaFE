@@ -1,11 +1,26 @@
 .foto-head{
     background-image: url("fondo.jpg");
 }
-h1{ color:rgb(187, 68, 241);font-size: 50px;}
-h2{color: #c10a48; font-size: 30px;}
-h4{color: #d65f87; font-size: 30px;}
+h1{
+    color:rgb(187 15 63);
+    font-size: 50px;
+    margin-block: -2px;
+    padding: 1px;
+}
+h2{
+    color: #c10a48; 
+    font-size: 30px;
+}
+h4{
+    color: #d65f87; 
+    font-size: 20px;
+    margin-block: -0.01px;
+}
 div{
-    background-color: #fddbe0;
+    min-height: 200px;
+    background-color: #fac8cf;
+    padding-left: 100px;
+    padding-top: 10px;
 }
 .imagen-petrak{
     width: 75px;
@@ -20,15 +35,15 @@ div{
     width: 50px;
 }
 .imagen-foto{
-    width: 150px;
+    width: 200px;
+    border-radius: 90%;
+    margin-top: -70px;
+    margin-left: -50px;
 }
 
 .acerca{
-    background-color: #fab9c3;
 }
 .experiencia{
-    background-color: #fa9fad;
 }
 .educacion{
-    background-color: #fd8f9f;
 }
